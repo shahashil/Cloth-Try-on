@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="    viewport" content="width=device-width, initial-scale=1.0">
+
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/8.2.7/firebase-auth.js"></script>
+<script type ="module" src="form.js"></script>
+    <title>Login System</title>
+</head>
+<body>
+    <!-- <a href="" target="_blank" rel="noopener noreferrer"></a> -->
+    <div class="formContainer">
+    <h2>Enter Credentials to Use the Service:</h2>
+    <input type="email"  placeholder="email here" id="email"><br>
+    <input type="password" placeholder="password here" id="password"><br>
+   <!-- <button  id="signUp">SignUp</button> -->
+    <button  id="signIn">Enable</button>
+    <button id="signOut">Disable</button>
+	<h3 id="status" ></h3>
+    <input  placeholder="url" id="url" style="display: none;"><br>
+    <button  id="submiturl" style="display: none;">submiturl</button>
+    <p id="urlsubmitted"> </p>
+    <p id="getuserid"></p>
+</div>
+
+
+    
+</body>
+</html>
