@@ -74,13 +74,13 @@ check();
 
 
 var firebaseConfig = {
-  apiKey: "AIzaSyCc223scp56XuGMzXk-_6DC8fcxAEicX_Y",
-  authDomain: "wardrobe-recommendation.firebaseapp.com",
-  projectId: "wardrobe-recommendation",
-  storageBucket: "wardrobe-recommendation.appspot.com",
-  messagingSenderId: "920246833578",
-  appId: "1:920246833578:web:446c33399bcd8f9e1ddbd3",
-  measurementId: "G-ZHXLHXQ06H",
+  apiKey: "",
+  authDomain: "",
+  projectId: "",
+  storageBucket: "",
+  messagingSenderId: "",
+  appId: "",
+  measurementId: "",
 };
 // Initialize Firebase
 if (!firebase.apps.length) {
